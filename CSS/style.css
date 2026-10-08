@@ -1,16 +1,11 @@
+
+header{
+    background-color: rgb(226, 41, 41);
+}
+.YouCode_index{
+    display: block;
+}
 a {
-    display: inline;
-    margin-right: 20px;
-}
-p {
-    font-family: "Black Ops One", sans-serif;
-     font-weight: 400;
-  font-style: normal;
-}
-#p1{
-    color: blue;
-}
-body {
-    width: 700px;
-    height: auto;
+display: inline;
+margin-right: 15px;
 }
