@@ -1,11 +1,149 @@
+body {
+    background-color: white;
+}
 
-header{
-    background-color: rgb(226, 41, 41);
+header {
+    background-color: white;
+    width: 1024px;
+    height: 64px;
+    justify-content: space-between;
+    padding-right: 52px;
+    padding-left: 52px;
 }
-.YouCode_index{
-    display: block;
+
+
+footer {
+    background-color: white;
 }
-a {
-display: inline;
-margin-right: 15px;
+
+.nav {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav h2{
+    width: 113px;
+    height: 25px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.nav a:hover {
+    border-bottom: solid blue 2px;
+}
+.nav a{
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+button {
+    width: 146px;
+    height: 44px;
+    background-color: blue;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+#button_Sinscrire {
+    width: 620px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+
+.section1 {
+    padding: 56px;
+    gap: 28px;
+    width: 1024px;
+    height: 373px;
+}
+
+.tes_premiers {
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tes_premiers p {
+    width: 188px;
+    height: 17px;
+
+    color: #034BFF;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "IBM Plex Mono", sans-serif;
+    line-height: 145%;
+}
+
+.tes_premiers h1 {
+    width: 912px;
+    height: 39px;
+    line-height: 108%;
+    font-size: 36px;
+    color: #0A1222;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+}
+
+.campus_container {
+    width: 912px;
+    display: flex;
+    gap: 24px;
+}
+
+.campus_container div {
+    border: 1px solid #DDE4F0;
+    border-radius: 10px;
+
+
+    width: 290.67px;
+    height: 165px;
+    padding: 20px;
+}
+
+.campus_container div h3 {
+    font-family: "IBM Plex Mono", sans-serif;
+    color: #034BFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+
+    width: 250.67px;
+    height: 15px;
+}
+
+.campus_container div p {
+    font-family: "Inter", sans-serif;
+    color: #47526A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 145%;
+
+    width: 250.67px;
+    height: 80px;
+}
+.section2 {
+    padding: 56px;
+    gap: 28px;
+    width: 1024px;
+    height: 935px;
+}
+.des_espaces #p1{
+color: #034BFF;
 }
