@@ -4,8 +4,6 @@ body {
 
 header {
     background-color: white;
-    width: 1024px;
-    height: 64px;
     justify-content: space-between;
     padding-right: 52px;
     padding-left: 52px;
@@ -26,10 +24,8 @@ footer {
     justify-content: space-between;
     gap: 20px;
 }
-.nav h2{
-    width: 113px;
-    height: 25px;
 
+.nav h2 {
     font-family: "Inter", sans-serif;
     font-size: 21px;
     font-weight: 800;
@@ -38,18 +34,19 @@ footer {
 .nav a:hover {
     border-bottom: solid blue 2px;
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
     white-space: nowrap;
 }
 
 button {
-    width: 146px;
-    height: 44px;
+
     background-color: blue;
     color: white;
 
     display: flex;
+    height: 44px;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
@@ -60,17 +57,15 @@ button:hover {
 }
 
 #button_Sinscrire {
-    width: 620px;
-    height: 50px;
     background-color: blue;
     color: white;
 }
 
 .section1 {
     padding: 56px;
+    display: flex;
+    flex-direction: column;
     gap: 28px;
-    width: 1024px;
-    height: 373px;
 }
 
 .tes_premiers {
@@ -81,19 +76,15 @@ button:hover {
 }
 
 .tes_premiers p {
-    width: 188px;
-    height: 17px;
 
     color: #034BFF;
     font-size: 12px;
     font-weight: 400;
     font-family: "IBM Plex Mono", sans-serif;
-    line-height: 145%;
 }
 
 .tes_premiers h1 {
-    width: 912px;
-    height: 39px;
+
     line-height: 108%;
     font-size: 36px;
     color: #0A1222;
@@ -102,7 +93,6 @@ button:hover {
 }
 
 .campus_container {
-    width: 912px;
     display: flex;
     gap: 24px;
 }
@@ -111,8 +101,7 @@ button:hover {
     border: 1px solid #DDE4F0;
     border-radius: 10px;
 
-
-    width: 290.67px;
+    flex: 1;
     height: 165px;
     padding: 20px;
 }
@@ -122,10 +111,7 @@ button:hover {
     color: #034BFF;
     font-weight: 400;
     font-size: 12px;
-    line-height: 145%;
 
-    width: 250.67px;
-    height: 15px;
 }
 
 .campus_container div p {
@@ -133,17 +119,89 @@ button:hover {
     color: #47526A;
     font-weight: 400;
     font-size: 14px;
-    line-height: 145%;
-
-    width: 250.67px;
-    height: 80px;
 }
+
 .section2 {
     padding: 56px;
     gap: 28px;
-    width: 1024px;
-    height: 935px;
 }
-.des_espaces #p1{
-color: #034BFF;
+
+.des_espaces #p1 {
+    color: #034BFF;
+    font-family: "IBM Plex Mono", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.des_espaces h1 {
+    font-family: "Inter", sans-serif;
+    color: #0A1222;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.des_espaces #p2 {
+    color: #47526A;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.container1 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.container2 {
+    display: flex;
+    gap: 24px;
+}
+
+.container1 div,
+.container2 div {
+    flex: 1;
+    overflow: hidden;
+    border: 1px solid #DDE4F0;
+    border-radius: 12px;
+}
+
+.container1 img,
+.container2 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.container1 div #container1_p1,
+.container2 div #container2_p1 {
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #034BFF;
+
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.container1 div #container1_p2,
+.container2 div #container2_p2 {
+    font-family: "Inter", sans-serif;
+    color: #47526A;
+    font-weight: 400;
+    font-size: 14px;
+
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.container1 div h1,
+.container2 div h1 {
+    font-family: "Inter", sans-serif;
+    color: #0A1222;
+    font-weight: 800;
+    font-size: 22px;
+
+    margin-left: 24px;
+    margin-right: 24px;
 }
